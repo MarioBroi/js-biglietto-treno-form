@@ -13,7 +13,7 @@
 - Client age verification
     - IF the client is under 18 yh i will apply a 20% discount on the standard ticket price
     - ELSE IF the client is over 65 yh i will apply a 40% discount on the standard ticket price
-    - ELSE the client will pay the satndard price
+    - ELSE the client will pay the standard price
 - Print of the ticket price in the console
 
 ### Tools

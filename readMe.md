@@ -19,6 +19,7 @@
 ### Tools
 - button and input tags
 - const / let
+- getElementById
 - querySelector
 - comparation operators > <
 - if / else if / else

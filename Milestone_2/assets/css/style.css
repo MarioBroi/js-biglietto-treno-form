@@ -128,6 +128,8 @@ input[type=text] {
 
 .ticket {
     background-color: #fff;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 h3 {

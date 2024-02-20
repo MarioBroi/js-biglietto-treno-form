@@ -37,19 +37,42 @@
     <!-- /.site-header -->
 
     <main class="site-main">
-        <input type="text" name="km" id="km">
-        <input type="text" name="age" id="age">
-        <button id="btn">
-            Calculate Price
-        </button>
+
+
+        <h1>Plan a journey</h1>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-6">
+                    <form action="">
+                        <input type="text" name="km" id="km" placeholder="N of Kilometers">
+                        <input type="text" name="name" id="name" placeholder="Type your Name and Surname">
+                        <input type="text" name="age" id="age" placeholder="Type your age">
+                        <button id="btn" class="button-87">
+                            Calculate Price
+                        </button>
+                    </form>
+                </div>
+                <!-- /.col -->
+
+                <div class="col-6 ticket">
+                    <h3>Your Ticket</h3>
+                    <div>Passenger detail:<span id="name"></span></div>
+                    <div>Ticket Price:<span id="finalTicket"></span></div>
+                    <div>Class:<span>Standard</span></div>
+                </div>
+                <!-- /.col -->
+
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
     </main>
     <!-- /.site-main -->
-
-    <footer class="site-footer">
-
-    </footer>
-    <!-- /.site-footer -->
-
 
     <script src="./assets/js/main.js"></script>
 </body>

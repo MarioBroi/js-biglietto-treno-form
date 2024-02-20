@@ -5,6 +5,7 @@ const buttonElement = document.getElementById('btn')
 buttonElement.addEventListener('click', function () {
     const km = document.getElementById('km').value;
     const age = document.getElementById('age').value;
+    const name = document.getElementById('cName').value;
     console.log(km, age); //km and age
     //- Calculate of the standard price for the ticket (km * 0.21)
     const pricePerKm = 0.21;
@@ -25,4 +26,6 @@ buttonElement.addEventListener('click', function () {
     const finalPrice = ticketPrice.toFixed(2);
     //- Print of the ticket price in the console
     console.log(`Your final ticket price is: ${finalPrice}`); //Final ticket
+    document.getElementById('pName').innerHTML = name;
+    document.getElementById('fTicket').innerHTML = finalPrice;
 });

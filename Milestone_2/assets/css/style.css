@@ -48,7 +48,8 @@
     background-size: cover;
 
     & h1 {
-        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
         color: orange;
         text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
@@ -56,16 +57,11 @@
 
     & .container {
         display: flex;
-        margin: 1rem;
-
-        & .row {
-            display: flex;
-        }
+        justify-content: center;
+        height: 800px;
     }
 
     .col-6 {
-        display: flex;
-        flex-direction: column;
         width: calc((100%/12)*6);
         padding: 2rem;
 
@@ -105,7 +101,6 @@
 
 .button-87:hover {
     background-position: right center;
-    /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
 }
@@ -124,12 +119,14 @@ input[type=text] {
     padding: .4em;
     color: #E91E63;
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 .ticket {
     background-color: #fff;
     border-radius: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
+    height: fit-content;
 }
 
 h3 {
